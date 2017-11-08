@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	position: static;
+	background-color: #026AA7;
+	padding: 10px;
+	height: 30px;
+}
+
+.m1 li{
+	display: inline-block;
+	list-style: none;
+}
+
+.m1 li:hover{
+	background-color: #7cb3d3;
+}
+
+.menu1{
+	background-color: #67A6CA;
+	width: 97px;
+	color: #fff;
+	border-radius: 4px;
+	text-align: right;
+	padding: 7px;
+	padding-right: 10px;
+}
+
+.fa-trello{
+	position: relative;
+	right: 7px;
+}
+
+.menu2{
+	background-color: #67A6CA;
+	color: #fff;
+	width: 150px;
+	border-radius: 4px;
+	padding: 7px;
+	padding-left: 20px;
+	left: 100px;
+}
+
+.fa-search{
+	position: relative;
+	left: 130px;
+}
+
+.iconos li{
+	display: inline-block;
+	list-style: none;
+	left: 1120px;
+}
+
+.iconos li:hover{
+	background-color: #7cb3d3;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+	position: relative;
+	background-color: #67A6CA;
+	color: #fff;
+	width: 20px;
+	border-radius: 4px;
+	padding: 7px;
+	bottom: 35px;
+}
+
+section{
+	background-color: #1D8DC2;
+	height: 621px;
+}
+
+.m2 li{
+	display: inline-block;
+	list-style: none;
+}
+
+.menu3{
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.star{
+	position: relative;
+	color: #fff;
+	left: 20px;
+}
+
+.padLock{
+	position: relative;
+	color: #fff;
+	left: 40px;
+}
+
+.points{
+	position: relative;
+	left: 805px;
+	color: #fff;
+}
+
+a{
+	color: #fff;
+}
+
+.titulo{
+	position: relative;
+	font-family: 'Lobster', cursive;
+	color: #67A6CA;
+	left:320px; 
+}

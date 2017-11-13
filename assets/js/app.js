@@ -1,5 +1,4 @@
-var boton = getElementById("press");
-boton.onclick = formulario;
+
 var button1 = document.getElementById("press");
 var button2 = document.getElementById("caja");
 

@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trello</title>
+	<link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
-<header> 
+<header>
 	<ul class="m1">
 		<li class="menu1"><i class="fa fa-trello" aria-hidden="true"></i> Tableros</li>
 		<li class="menu2"><i class="fa fa-search" aria-hidden="true"></i></li>
@@ -29,12 +30,16 @@
 		<li class="points"><i class="fa fa-ellipsis-h" aria-hidden="true"> <a href="">Mostrar menú</a></i></li>
 	</ul>
 
-	<div class="menuPrincipal">
-	<button id="press">Añadir una lista...</button>
-	<form id="caja" class="ocult">
-		<input type="text" placeholder="Añadir una lista...">
+<div class="tarjetas">
+<div id="nuevoContenedor"></div>
+	<div id="cont" class="menuPrincipal ">
+	<button id="press">Añadir una lista ...</button>
+	<div id="caja" type="text" class="ocult">
+		<input id="text" class="input" type="text" placeholder="Añadir una lista...">
 		<button id="botonGuardar">Guardar</button>
-	</form>
+		<button id="btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+	</div>
+</div>
 </div>
 </section>
 
